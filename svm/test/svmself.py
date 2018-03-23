@@ -23,6 +23,7 @@ def loadDataSet(fileName):
 
 dataMat, labelMat ,testMat ,test_labelMat = loadDataSet('testSetRBF.txt')
 # print(type(dataMat))
+print (dataMat)
 print (len(dataMat))
 print (len(testMat))
 # h = .02  # 网格中的步长

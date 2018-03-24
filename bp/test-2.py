@@ -135,3 +135,4 @@ plt.plot(fitnesslog[:,1])
 plt.plot(bestlog)
 
 plt.legend(('max','mean','best'),loc='best')
+plt.show()
